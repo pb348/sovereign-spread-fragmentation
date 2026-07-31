@@ -1,0 +1,493 @@
+vintage,vintage_year,vintage_month,forecast_year,iso3,country,subject_code,subject_descriptor,units,debt_gdp_forecast
+2005-Jun,2005,Jun,2006,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,61.0
+2005-Jun,2005,Jun,2006,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,92.5
+2005-Jun,2005,Jun,2006,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,48.4
+2005-Jun,2005,Jun,2006,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,66.4
+2005-Jun,2005,Jun,2006,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,68.7
+2005-Jun,2005,Jun,2006,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,105.7
+2005-Jun,2005,Jun,2006,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,29.8
+2005-Jun,2005,Jun,2006,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,109.1
+2005-Jun,2005,Jun,2006,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,56.3
+2005-Jun,2005,Jun,2006,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,71.4
+2005-Jun,2005,Jun,2006,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,43.5
+2005-Dec,2005,Dec,2006,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,64.4
+2005-Dec,2005,Dec,2006,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,91.6
+2005-Dec,2005,Dec,2006,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,69.2
+2005-Dec,2005,Dec,2006,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,41.1
+2005-Dec,2005,Dec,2006,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,47.5
+2005-Dec,2005,Dec,2006,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,67.7
+2005-Dec,2005,Dec,2006,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,106.1
+2005-Dec,2005,Dec,2006,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,29.8
+2005-Dec,2005,Dec,2006,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,110.4
+2005-Dec,2005,Dec,2006,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,54.9
+2005-Dec,2005,Dec,2006,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,69.8
+2006-Dec,2006,Dec,2007,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,62.7
+2006-Dec,2006,Dec,2007,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,86.3
+2006-Dec,2006,Dec,2007,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,66.8
+2006-Dec,2006,Dec,2007,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,37.0
+2006-Dec,2006,Dec,2007,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,42.3
+2006-Dec,2006,Dec,2007,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,65.1
+2006-Dec,2006,Dec,2007,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,100.9
+2006-Dec,2006,Dec,2007,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,27.4
+2006-Dec,2006,Dec,2007,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,107.2
+2006-Dec,2006,Dec,2007,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,48.6
+2006-Dec,2006,Dec,2007,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,66.4
+2006-Jun,2006,Jun,2007,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,63.2
+2006-Jun,2006,Jun,2007,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,85.6
+2006-Jun,2006,Jun,2007,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,69.3
+2006-Jun,2006,Jun,2007,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,38.3
+2006-Jun,2006,Jun,2007,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,42.5
+2006-Jun,2006,Jun,2007,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,65.9
+2006-Jun,2006,Jun,2007,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,103.3
+2006-Jun,2006,Jun,2007,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,27.5
+2006-Jun,2006,Jun,2007,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,108.4
+2006-Jun,2006,Jun,2007,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,52.3
+2006-Jun,2006,Jun,2007,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,68.3
+2007-Dec,2007,Dec,2008,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,59.4
+2007-Dec,2007,Dec,2008,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,82.9
+2007-Dec,2007,Dec,2008,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,62.8
+2007-Dec,2007,Dec,2008,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,32.9
+2007-Dec,2007,Dec,2008,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,35.2
+2007-Dec,2007,Dec,2008,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,66.2
+2007-Dec,2007,Dec,2008,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,90.3
+2007-Dec,2007,Dec,2008,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,24.9
+2007-Dec,2007,Dec,2008,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,104.2
+2007-Dec,2007,Dec,2008,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,44.7
+2007-Dec,2007,Dec,2008,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,65.8
+2007-Jun,2007,Jun,2008,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,59.5
+2007-Jun,2007,Jun,2008,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,82.8
+2007-Jun,2007,Jun,2008,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,64.0
+2007-Jun,2007,Jun,2008,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,32.4
+2007-Jun,2007,Jun,2008,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,43.3
+2007-Jun,2007,Jun,2008,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,61.2
+2007-Jun,2007,Jun,2008,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,78.5
+2007-Jun,2007,Jun,2008,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,23.9
+2007-Jun,2007,Jun,2008,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,105.0
+2007-Jun,2007,Jun,2008,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,46.6
+2007-Jun,2007,Jun,2008,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,65.9
+2008-Dec,2008,Dec,2009,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,62.4
+2008-Dec,2008,Dec,2009,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,88.6
+2008-Dec,2008,Dec,2009,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,65.8
+2008-Dec,2008,Dec,2009,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,41.3
+2008-Dec,2008,Dec,2009,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,32.6
+2008-Dec,2008,Dec,2009,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,69.7
+2008-Dec,2008,Dec,2009,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,91.9
+2008-Dec,2008,Dec,2009,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,37.6
+2008-Dec,2008,Dec,2009,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,105.3
+2008-Dec,2008,Dec,2009,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,48.3
+2008-Dec,2008,Dec,2009,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,66.4
+2008-Jun,2008,Jun,2009,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,57.8
+2008-Jun,2008,Jun,2009,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,81.1
+2008-Jun,2008,Jun,2009,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,62.6
+2008-Jun,2008,Jun,2009,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,34.1
+2008-Jun,2008,Jun,2009,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,33.3
+2008-Jun,2008,Jun,2009,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,67.1
+2008-Jun,2008,Jun,2009,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,89.8
+2008-Jun,2008,Jun,2009,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,30.1
+2008-Jun,2008,Jun,2009,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,104.0
+2008-Jun,2008,Jun,2009,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,41.4
+2008-Jun,2008,Jun,2009,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,64.3
+2009-Dec,2009,Dec,2010,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,74.2
+2009-Dec,2009,Dec,2010,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,101.7
+2009-Dec,2009,Dec,2010,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,79.1
+2009-Dec,2009,Dec,2010,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,60.1
+2009-Dec,2009,Dec,2010,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,45.6
+2009-Dec,2009,Dec,2010,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,84.2
+2009-Dec,2009,Dec,2010,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,119.9
+2009-Dec,2009,Dec,2010,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,76.7
+2009-Dec,2009,Dec,2010,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,118.3
+2009-Dec,2009,Dec,2010,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,69.4
+2009-Dec,2009,Dec,2010,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,82.0
+2009-Jun,2009,Jun,2010,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,76.0
+2009-Jun,2009,Jun,2010,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,102.9
+2009-Jun,2009,Jun,2010,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,81.1
+2009-Jun,2009,Jun,2010,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,60.9
+2009-Jun,2009,Jun,2010,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,45.0
+2009-Jun,2009,Jun,2010,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,86.1
+2009-Jun,2009,Jun,2010,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,108.3
+2009-Jun,2009,Jun,2010,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,75.9
+2009-Jun,2009,Jun,2010,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,118.6
+2009-Jun,2009,Jun,2010,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,70.3
+2009-Jun,2009,Jun,2010,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,81.3
+2010-Apr,2010,Apr,2011,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,
+2010-Apr,2010,Apr,2011,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,
+2010-Apr,2010,Apr,2011,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,79.645
+2010-Apr,2010,Apr,2011,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,
+2010-Apr,2010,Apr,2011,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,
+2010-Apr,2010,Apr,2011,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,88.641
+2010-Apr,2010,Apr,2011,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,
+2010-Apr,2010,Apr,2011,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,
+2010-Apr,2010,Apr,2011,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,120.464
+2010-Apr,2010,Apr,2011,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,
+2010-Apr,2010,Apr,2011,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,
+2010-Apr,2010,Apr,2011,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,
+2010-Dec,2010,Dec,2011,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,73.0
+2010-Dec,2010,Dec,2011,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,100.2
+2010-Dec,2010,Dec,2011,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,78.3
+2010-Dec,2010,Dec,2011,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,68.9
+2010-Dec,2010,Dec,2011,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,53.8
+2010-Dec,2010,Dec,2011,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,88.0
+2010-Dec,2010,Dec,2011,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,133.5
+2010-Dec,2010,Dec,2011,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,105.0
+2010-Dec,2010,Dec,2011,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,120.9
+2010-Dec,2010,Dec,2011,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,68.9
+2010-Dec,2010,Dec,2011,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,88.5
+2010-Jun,2010,Jun,2011,AUT,Austria,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,73.5
+2010-Jun,2010,Jun,2011,BEL,Belgium,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,101.1
+2010-Jun,2010,Jun,2011,DEU,Germany,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,81.3
+2010-Jun,2010,Jun,2011,ESP,Spain,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,69.0
+2010-Jun,2010,Jun,2011,FIN,Finland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,60.1
+2010-Jun,2010,Jun,2011,FRA,France,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,90.6
+2010-Jun,2010,Jun,2011,GRC,Greece,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,134.8
+2010-Jun,2010,Jun,2011,IRL,Ireland,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,85.8
+2010-Jun,2010,Jun,2011,ITA,Italy,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,121.7
+2010-Jun,2010,Jun,2011,NLD,Netherlands,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,71.5
+2010-Jun,2010,Jun,2011,PRT,Portugal,GGFLMQ,"Gross public debt, Maastricht criterion",Percent of GDP,88.5
+2010-Oct,2010,Oct,2011,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,72.352
+2010-Oct,2010,Oct,2011,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,103.1
+2010-Oct,2010,Oct,2011,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,76.518
+2010-Oct,2010,Oct,2011,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,70.224
+2010-Oct,2010,Oct,2011,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,52.2
+2010-Oct,2010,Oct,2011,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,87.559
+2010-Oct,2010,Oct,2011,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,139.349
+2010-Oct,2010,Oct,2011,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,101.677
+2010-Oct,2010,Oct,2011,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,119.692
+2010-Oct,2010,Oct,2011,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,22.916
+2010-Oct,2010,Oct,2011,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,69.378
+2010-Oct,2010,Oct,2011,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,87.086
+2011-Apr,2011,Apr,2012,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,70.747
+2011-Apr,2011,Apr,2012,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,97.401
+2011-Apr,2011,Apr,2012,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,79.435
+2011-Apr,2011,Apr,2012,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,67.069
+2011-Apr,2011,Apr,2012,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,52.672
+2011-Apr,2011,Apr,2012,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,89.658
+2011-Apr,2011,Apr,2012,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,157.654
+2011-Apr,2011,Apr,2012,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,121.511
+2011-Apr,2011,Apr,2012,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,119.983
+2011-Apr,2011,Apr,2012,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,19.497
+2011-Apr,2011,Apr,2012,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,66.478
+2011-Apr,2011,Apr,2012,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,94.619
+2011-Oct,2011,Oct,2012,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,73.875
+2011-Oct,2011,Oct,2012,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,94.276
+2011-Oct,2011,Oct,2012,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,81.896
+2011-Oct,2011,Oct,2012,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,70.151
+2011-Oct,2011,Oct,2012,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,50.311
+2011-Oct,2011,Oct,2012,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,89.371
+2011-Oct,2011,Oct,2012,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,189.149
+2011-Oct,2011,Oct,2012,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,115.433
+2011-Oct,2011,Oct,2012,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,121.385
+2011-Oct,2011,Oct,2012,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,21.506
+2011-Oct,2011,Oct,2012,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,66.516
+2011-Oct,2011,Oct,2012,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,111.793
+2012-Apr,2012,Apr,2013,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,74.275
+2012-Apr,2012,Apr,2013,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,98.542
+2012-Apr,2012,Apr,2013,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,77.448
+2012-Apr,2012,Apr,2013,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,84.027
+2012-Apr,2012,Apr,2013,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,52.845
+2012-Apr,2012,Apr,2013,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,90.751
+2012-Apr,2012,Apr,2013,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,165.347
+2012-Apr,2012,Apr,2013,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,117.727
+2012-Apr,2012,Apr,2013,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,123.801
+2012-Apr,2012,Apr,2013,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,26.753
+2012-Apr,2012,Apr,2013,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,73.655
+2012-Apr,2012,Apr,2013,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,115.32
+2012-Oct,2012,Oct,2013,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,74.94
+2012-Oct,2012,Oct,2013,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,99.433
+2012-Oct,2012,Oct,2013,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,81.542
+2012-Oct,2012,Oct,2013,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,96.934
+2012-Oct,2012,Oct,2013,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,53.884
+2012-Oct,2012,Oct,2013,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,92.079
+2012-Oct,2012,Oct,2013,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,181.837
+2012-Oct,2012,Oct,2013,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,119.307
+2012-Oct,2012,Oct,2013,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,127.848
+2012-Oct,2012,Oct,2013,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,24.567
+2012-Oct,2012,Oct,2013,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,70.183
+2012-Oct,2012,Oct,2013,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,123.737
+2013-Apr,2013,Apr,2014,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,73.657
+2013-Apr,2013,Apr,2014,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,99.818
+2013-Apr,2013,Apr,2014,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,78.302
+2013-Apr,2013,Apr,2014,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,97.564
+2013-Apr,2013,Apr,2014,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,58.396
+2013-Apr,2013,Apr,2014,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,94.038
+2013-Apr,2013,Apr,2014,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,175.552
+2013-Apr,2013,Apr,2014,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,120.227
+2013-Apr,2013,Apr,2014,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,130.808
+2013-Apr,2013,Apr,2014,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,25.679
+2013-Apr,2013,Apr,2014,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,75.917
+2013-Apr,2013,Apr,2014,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,123.688
+2013-Oct,2013,Oct,2014,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,74.789
+2013-Oct,2013,Oct,2014,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,101.238
+2013-Oct,2013,Oct,2014,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,78.128
+2013-Oct,2013,Oct,2014,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,99.06
+2013-Oct,2013,Oct,2014,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,59.813
+2013-Oct,2013,Oct,2014,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,94.783
+2013-Oct,2013,Oct,2014,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,173.994
+2013-Oct,2013,Oct,2014,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,120.973
+2013-Oct,2013,Oct,2014,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,133.124
+2013-Oct,2013,Oct,2014,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,24.631
+2013-Oct,2013,Oct,2014,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,75.565
+2013-Oct,2013,Oct,2014,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,125.293
+2014-Apr,2014,Apr,2015,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,78.21
+2014-Apr,2014,Apr,2015,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,99.569
+2014-Apr,2014,Apr,2015,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,70.761
+2014-Apr,2014,Apr,2015,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,101.954
+2014-Apr,2014,Apr,2015,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,62.103
+2014-Apr,2014,Apr,2015,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,96.063
+2014-Apr,2014,Apr,2015,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,171.269
+2014-Apr,2014,Apr,2015,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,122.737
+2014-Apr,2014,Apr,2015,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,133.117
+2014-Apr,2014,Apr,2015,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,27.043
+2014-Apr,2014,Apr,2015,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,74.443
+2014-Apr,2014,Apr,2015,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,124.799
+2014-Oct,2014,Oct,2015,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,78.616
+2014-Oct,2014,Oct,2015,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,101.725
+2014-Oct,2014,Oct,2015,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,72.54
+2014-Oct,2014,Oct,2015,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,101.101
+2014-Oct,2014,Oct,2015,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,59.348
+2014-Oct,2014,Oct,2015,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,97.67
+2014-Oct,2014,Oct,2015,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,170.982
+2014-Oct,2014,Oct,2015,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,111.676
+2014-Oct,2014,Oct,2015,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,136.427
+2014-Oct,2014,Oct,2015,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,26.454
+2014-Oct,2014,Oct,2015,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,69.615
+2014-Oct,2014,Oct,2015,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,128.722
+2015-Apr,2015,Apr,2016,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,87.387
+2015-Apr,2015,Apr,2016,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,106.175
+2015-Apr,2015,Apr,2016,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,66.626
+2015-Apr,2015,Apr,2016,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,100.056
+2015-Apr,2015,Apr,2016,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,62.82
+2015-Apr,2015,Apr,2016,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,98.065
+2015-Apr,2015,Apr,2016,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,162.365
+2015-Apr,2015,Apr,2016,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,104.908
+2015-Apr,2015,Apr,2016,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,132.867
+2015-Apr,2015,Apr,2016,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,27.232
+2015-Apr,2015,Apr,2016,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,65.564
+2015-Apr,2015,Apr,2016,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,124.321
+2015-Oct,2015,Oct,2016,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,85.558
+2015-Oct,2015,Oct,2016,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,106.171
+2015-Oct,2015,Oct,2016,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,68.222
+2015-Oct,2015,Oct,2016,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,98.813
+2015-Oct,2015,Oct,2016,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,64.0
+2015-Oct,2015,Oct,2016,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,98.04
+2015-Oct,2015,Oct,2016,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,206.586
+2015-Oct,2015,Oct,2016,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,95.936
+2015-Oct,2015,Oct,2016,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,132.28
+2015-Oct,2015,Oct,2016,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,23.197
+2015-Oct,2015,Oct,2016,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,65.645
+2015-Oct,2015,Oct,2016,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,125.006
+2016-Apr,2016,Apr,2017,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,83.85
+2016-Apr,2016,Apr,2017,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,106.516
+2016-Apr,2016,Apr,2017,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,65.878
+2016-Apr,2016,Apr,2017,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,98.473
+2016-Apr,2016,Apr,2017,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,66.246
+2016-Apr,2016,Apr,2017,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,98.838
+2016-Apr,2016,Apr,2017,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,
+2016-Apr,2016,Apr,2017,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,84.602
+2016-Apr,2016,Apr,2017,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,131.711
+2016-Apr,2016,Apr,2017,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,22.125
+2016-Apr,2016,Apr,2017,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,64.893
+2016-Apr,2016,Apr,2017,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,127.328
+2016-Oct,2016,Oct,2017,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,83.713
+2016-Oct,2016,Oct,2017,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,105.031
+2016-Oct,2016,Oct,2017,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,65.948
+2016-Oct,2016,Oct,2017,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,100.222
+2016-Oct,2016,Oct,2017,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,65.341
+2016-Oct,2016,Oct,2017,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,97.79
+2016-Oct,2016,Oct,2017,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,184.741
+2016-Oct,2016,Oct,2017,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,72.599
+2016-Oct,2016,Oct,2017,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,133.404
+2016-Oct,2016,Oct,2017,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,22.937
+2016-Oct,2016,Oct,2017,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,61.787
+2016-Oct,2016,Oct,2017,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,128.204
+2017-Apr,2017,Apr,2018,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,78.321
+2017-Apr,2017,Apr,2018,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,103.267
+2017-Apr,2017,Apr,2018,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,61.951
+2017-Apr,2017,Apr,2018,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,97.857
+2017-Apr,2017,Apr,2018,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,64.442
+2017-Apr,2017,Apr,2018,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,97.374
+2017-Apr,2017,Apr,2018,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,181.469
+2017-Apr,2017,Apr,2018,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,73.44
+2017-Apr,2017,Apr,2018,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,131.561
+2017-Apr,2017,Apr,2018,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,23.471
+2017-Apr,2017,Apr,2018,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,57.798
+2017-Apr,2017,Apr,2018,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,127.073
+2017-Oct,2017,Oct,2018,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,77.545
+2017-Oct,2017,Oct,2018,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,102.852
+2017-Oct,2017,Oct,2018,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,61.816
+2017-Oct,2017,Oct,2018,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,97.222
+2017-Oct,2017,Oct,2018,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,62.579
+2017-Oct,2017,Oct,2018,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,96.986
+2017-Oct,2017,Oct,2018,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,184.489
+2017-Oct,2017,Oct,2018,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,67.796
+2017-Oct,2017,Oct,2018,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,131.421
+2017-Oct,2017,Oct,2018,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,17.455
+2017-Oct,2017,Oct,2018,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,54.227
+2017-Oct,2017,Oct,2018,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,122.472
+2018-Apr,2018,Apr,2019,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,71.966
+2018-Apr,2018,Apr,2019,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,99.075
+2018-Apr,2018,Apr,2019,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,55.746
+2018-Apr,2018,Apr,2019,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,95.118
+2018-Apr,2018,Apr,2019,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,59.556
+2018-Apr,2018,Apr,2019,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,96.205
+2018-Apr,2018,Apr,2019,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,181.782
+2018-Apr,2018,Apr,2019,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,64.858
+2018-Apr,2018,Apr,2019,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,127.514
+2018-Apr,2018,Apr,2019,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,22.797
+2018-Apr,2018,Apr,2019,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,50.905
+2018-Apr,2018,Apr,2019,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,117.544
+2018-Oct,2018,Oct,2019,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,71.322
+2018-Oct,2018,Oct,2019,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,99.867
+2018-Oct,2018,Oct,2019,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,55.97
+2018-Oct,2018,Oct,2019,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,95.788
+2018-Oct,2018,Oct,2019,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,60.316
+2018-Oct,2018,Oct,2019,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,96.483
+2018-Oct,2018,Oct,2019,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,176.928
+2018-Oct,2018,Oct,2019,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,64.178
+2018-Oct,2018,Oct,2019,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,128.705
+2018-Oct,2018,Oct,2019,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,22.354
+2018-Oct,2018,Oct,2019,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,49.862
+2018-Oct,2018,Oct,2019,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,117.231
+2019-Apr,2019,Apr,2020,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,68.395
+2019-Apr,2019,Apr,2020,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,98.054
+2019-Apr,2019,Apr,2020,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,53.819
+2019-Apr,2019,Apr,2020,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,94.939
+2019-Apr,2019,Apr,2020,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,58.955
+2019-Apr,2019,Apr,2020,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,98.68
+2019-Apr,2019,Apr,2020,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,167.266
+2019-Apr,2019,Apr,2020,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,58.859
+2019-Apr,2019,Apr,2020,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,134.131
+2019-Apr,2019,Apr,2020,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,21.271
+2019-Apr,2019,Apr,2020,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,49.875
+2019-Apr,2019,Apr,2020,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,117.272
+2019-Oct,2019,Oct,2020,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,67.734
+2019-Oct,2019,Oct,2020,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,99.8
+2019-Oct,2019,Oct,2020,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,55.704
+2019-Oct,2019,Oct,2020,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,95.208
+2019-Oct,2019,Oct,2020,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,59.099
+2019-Oct,2019,Oct,2020,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,99.219
+2019-Oct,2019,Oct,2020,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,171.392
+2019-Oct,2019,Oct,2020,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,57.662
+2019-Oct,2019,Oct,2020,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,133.725
+2019-Oct,2019,Oct,2020,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,21.149
+2019-Oct,2019,Oct,2020,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,47.257
+2019-Oct,2019,Oct,2020,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,114.799
+2020-Oct,2020,Oct,2021,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,84.281
+2020-Oct,2020,Oct,2021,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,117.068
+2020-Oct,2020,Oct,2021,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,72.206
+2020-Oct,2020,Oct,2021,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,121.31
+2020-Oct,2020,Oct,2021,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,68.59
+2020-Oct,2020,Oct,2021,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,118.573
+2020-Oct,2020,Oct,2021,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,200.533
+2020-Oct,2020,Oct,2021,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,61.254
+2020-Oct,2020,Oct,2021,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,158.305
+2020-Oct,2020,Oct,2021,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,27.485
+2020-Oct,2020,Oct,2021,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,61.14
+2020-Oct,2020,Oct,2021,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,130.047
+2021-Apr,2021,Apr,2022,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,85.743
+2021-Apr,2021,Apr,2022,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,116.234
+2021-Apr,2021,Apr,2022,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,67.284
+2021-Apr,2021,Apr,2022,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,117.323
+2021-Apr,2021,Apr,2022,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,69.154
+2021-Apr,2021,Apr,2022,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,114.269
+2021-Apr,2021,Apr,2022,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,200.49
+2021-Apr,2021,Apr,2022,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,63.164
+2021-Apr,2021,Apr,2022,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,155.51
+2021-Apr,2021,Apr,2022,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,27.298
+2021-Apr,2021,Apr,2022,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,56.1
+2021-Apr,2021,Apr,2022,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,125.554
+2021-Oct,2021,Oct,2022,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,81.051
+2021-Oct,2021,Oct,2022,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,112.853
+2021-Oct,2021,Oct,2022,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,69.812
+2021-Oct,2021,Oct,2022,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,116.443
+2021-Oct,2021,Oct,2022,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,72.156
+2021-Oct,2021,Oct,2022,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,113.452
+2021-Oct,2021,Oct,2022,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,199.439
+2021-Oct,2021,Oct,2022,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,58.752
+2021-Oct,2021,Oct,2022,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,150.41
+2021-Oct,2021,Oct,2022,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,26.695
+2021-Oct,2021,Oct,2022,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,56.247
+2021-Oct,2021,Oct,2022,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,125.732
+2022-Apr,2022,Apr,2023,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,76.621
+2022-Apr,2022,Apr,2023,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,108.909
+2022-Apr,2022,Apr,2023,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,67.715
+2022-Apr,2022,Apr,2023,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,115.882
+2022-Apr,2022,Apr,2023,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,67.215
+2022-Apr,2022,Apr,2023,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,112.918
+2022-Apr,2022,Apr,2023,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,178.711
+2022-Apr,2022,Apr,2023,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,50.333
+2022-Apr,2022,Apr,2023,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,148.748
+2022-Apr,2022,Apr,2023,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,26.132
+2022-Apr,2022,Apr,2023,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,54.774
+2022-Apr,2022,Apr,2023,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,117.874
+2022-Oct,2022,Oct,2023,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,77.25
+2022-Oct,2022,Oct,2023,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,105.057
+2022-Oct,2022,Oct,2023,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,68.322
+2022-Oct,2022,Oct,2023,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,112.149
+2022-Oct,2022,Oct,2023,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,67.407
+2022-Oct,2022,Oct,2023,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,112.527
+2022-Oct,2022,Oct,2023,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,169.848
+2022-Oct,2022,Oct,2023,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,42.824
+2022-Oct,2022,Oct,2023,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,147.071
+2022-Oct,2022,Oct,2023,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,25.835
+2022-Oct,2022,Oct,2023,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,46.379
+2022-Oct,2022,Oct,2023,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,111.183
+2023-Apr,2023,Apr,2024,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,72.609
+2023-Apr,2023,Apr,2024,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,108.264
+2023-Apr,2023,Apr,2024,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,66.473
+2023-Apr,2023,Apr,2024,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,108.335
+2023-Apr,2023,Apr,2024,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,75.914
+2023-Apr,2023,Apr,2024,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,112.409
+2023-Apr,2023,Apr,2024,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,160.498
+2023-Apr,2023,Apr,2024,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,36.059
+2023-Apr,2023,Apr,2024,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,140.037
+2023-Apr,2023,Apr,2024,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,29.156
+2023-Apr,2023,Apr,2024,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,47.327
+2023-Apr,2023,Apr,2024,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,108.628
+2023-Oct,2023,Oct,2024,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,73.999
+2023-Oct,2023,Oct,2024,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,106.766
+2023-Oct,2023,Oct,2024,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,64.035
+2023-Oct,2023,Oct,2024,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,104.709
+2023-Oct,2023,Oct,2024,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,76.495
+2023-Oct,2023,Oct,2024,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,110.501
+2023-Oct,2023,Oct,2024,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,160.211
+2023-Oct,2023,Oct,2024,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,38.996
+2023-Oct,2023,Oct,2024,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,143.213
+2023-Oct,2023,Oct,2024,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,29.323
+2023-Oct,2023,Oct,2024,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,48.615
+2023-Oct,2023,Oct,2024,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,104.037
+2024-Apr,2024,Apr,2025,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,75.43
+2024-Apr,2024,Apr,2025,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,107.087
+2024-Apr,2024,Apr,2025,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,62.301
+2024-Apr,2024,Apr,2025,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,104.949
+2024-Apr,2024,Apr,2025,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,82.572
+2024-Apr,2024,Apr,2025,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,112.805
+2024-Apr,2024,Apr,2025,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,152.049
+2024-Apr,2024,Apr,2025,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,38.596
+2024-Apr,2024,Apr,2025,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,140.381
+2024-Apr,2024,Apr,2025,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,28.702
+2024-Apr,2024,Apr,2025,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,48.201
+2024-Apr,2024,Apr,2025,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,90.75
+2024-Oct,2024,Oct,2025,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,79.6
+2024-Oct,2024,Oct,2025,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,107.083
+2024-Oct,2024,Oct,2025,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,62.098
+2024-Oct,2024,Oct,2025,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,100.7
+2024-Oct,2024,Oct,2025,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,83.418
+2024-Oct,2024,Oct,2025,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,115.276
+2024-Oct,2024,Oct,2025,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,152.866
+2024-Oct,2024,Oct,2025,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,40.66
+2024-Oct,2024,Oct,2025,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,138.659
+2024-Oct,2024,Oct,2025,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,27.768
+2024-Oct,2024,Oct,2025,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,45.11
+2024-Oct,2024,Oct,2025,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,89.838
+2025-Apr,2025,Apr,2026,AUT,Austria,GGXWDG_NGDP,General government gross debt,Percent of GDP,84.183
+2025-Apr,2025,Apr,2026,BEL,Belgium,GGXWDG_NGDP,General government gross debt,Percent of GDP,109.952
+2025-Apr,2025,Apr,2026,DEU,Germany,GGXWDG_NGDP,General government gross debt,Percent of GDP,66.976
+2025-Apr,2025,Apr,2026,ESP,Spain,GGXWDG_NGDP,General government gross debt,Percent of GDP,99.017
+2025-Apr,2025,Apr,2026,FIN,Finland,GGXWDG_NGDP,General government gross debt,Percent of GDP,88.011
+2025-Apr,2025,Apr,2026,FRA,France,GGXWDG_NGDP,General government gross debt,Percent of GDP,119.122
+2025-Apr,2025,Apr,2026,GRC,Greece,GGXWDG_NGDP,General government gross debt,Percent of GDP,137.926
+2025-Apr,2025,Apr,2026,IRL,Ireland,GGXWDG_NGDP,General government gross debt,Percent of GDP,34.346
+2025-Apr,2025,Apr,2026,ITA,Italy,GGXWDG_NGDP,General government gross debt,Percent of GDP,138.48
+2025-Apr,2025,Apr,2026,LUX,Luxembourg,GGXWDG_NGDP,General government gross debt,Percent of GDP,27.183
+2025-Apr,2025,Apr,2026,NLD,Netherlands,GGXWDG_NGDP,General government gross debt,Percent of GDP,44.386
+2025-Apr,2025,Apr,2026,PRT,Portugal,GGXWDG_NGDP,General government gross debt,Percent of GDP,87.939

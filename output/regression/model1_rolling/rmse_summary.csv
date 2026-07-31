@@ -1,0 +1,2 @@
+rmse_fitted_vs_actual,rmse_tilde_vs_actual,rmse_tilde_vs_fitted,r_squared_mean,adj_r_squared_mean,n_windows,n_params
+0.463070171312418,0.9517447836162626,0.9295647313455309,0.8988122263647124,0.8643163944435915,182,16

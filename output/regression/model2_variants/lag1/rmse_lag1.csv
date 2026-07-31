@@ -1,0 +1,2 @@
+lag,include_P,rmse_fitted_vs_actual,rmse_tilde_vs_actual,rmse_tilde_nopurch_vs_actual,delta_mean,delta_sd,delta_pct_negative,n_windows,n_params
+1,TRUE,0.44549199805746564,0.9281656969993597,1.0404801390193081,0.0015845863025886686,0.009265412579226546,32.417582417582416,182,17

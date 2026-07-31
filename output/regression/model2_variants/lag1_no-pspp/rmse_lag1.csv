@@ -1,0 +1,2 @@
+lag,include_P,rmse_fitted_vs_actual,rmse_tilde_vs_actual,rmse_tilde_nopurch_vs_actual,r_squared_mean,r_squared_median,r_squared_min,r_squared_max,adj_r_squared_mean,adj_r_squared_median,adj_r_squared_min,adj_r_squared_max,delta_mean,delta_sd,delta_pct_negative,n_windows,n_params
+1,TRUE,0.4526196934439459,0.932735603049921,1.0538412566826532,0.9108027620994306,0.9224877693787508,0.7179823713759439,0.9785171360364883,0.8776130921829397,0.8936460091475882,0.6130455793297835,0.9705235122361118,0.00236527350059268,0.0068772029914871665,29.67032967032967,182,17

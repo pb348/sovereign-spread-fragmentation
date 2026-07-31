@@ -1,0 +1,9 @@
+# Python dependencies for code/01_data_prep and code/02_construction
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1        # .xlsx reading (WEO workbooks, Datastream exports)
+xlrd>=2.0            # legacy .xls reading (WEO vintage files)
+matplotlib>=3.7      # build_smp_purchases.py figure
+requests>=2.31       # build_smp_purchases.py (ECB press-release scraper)
+beautifulsoup4>=4.12 # build_smp_purchases.py
+bidask>=0.2          # EDGE bid-ask estimator (build_bid_ask_spreads.py)

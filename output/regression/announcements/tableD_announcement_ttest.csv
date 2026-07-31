@@ -1,0 +1,6 @@
+window,rolling_window,fixed_parameters
+"[-1, +3]",0.08 *,0.05 **
+"[-1, +3] (SMP + OMT + PEPP)",0.81,0.58
+"[-1, +6]",0.04 **,0.04 **
+"[-1, +6] (SMP + OMT + PEPP)",0.90,0.96
+Full sample,0.00 ***,0.00 ***

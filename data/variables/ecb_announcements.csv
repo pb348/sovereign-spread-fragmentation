@@ -1,0 +1,9 @@
+date,programme,is_stabilisation,note
+2010-05,SMP,True,"First announcement, May 2010"
+2011-08,SMP,True,"Reactivation, Aug 2011"
+2012-09,OMT,True,"OMT announcement, Sept 2012"
+2015-01,PSPP,False,"PSPP announced, Jan 2015"
+2019-09,PSPP,False,"PSPP restarted, Sept 2019"
+2020-03,PEPP,True,"PEPP announced, Mar 2020"
+2020-06,PEPP,True,"PEPP expanded, Jun 2020"
+2022-07,TPI,True,"TPI announced, Jul 2022"
