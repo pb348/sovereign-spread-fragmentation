@@ -12,11 +12,11 @@ RAW  = os.path.join(ROOT, 'data', 'raw', 'sov_banknexus')
 dfs = []
 for country in countries:
     # Holdings
-    h = pd.read_csv(os.path.join(RAW, f"{country}.csv"))
+    h = pd.read_csv(os.path.join(RAW, f"{country.lower()}_gov_debt_holdings_raw.csv"))
     h = h.rename(columns={h.columns[2]: "holdings"})
 
     # Total assets
-    a = pd.read_csv(os.path.join(RAW, f"{country}TotalAssets.csv"))
+    a = pd.read_csv(os.path.join(RAW, f"{country.lower()}_mfi_total_assets_raw.csv"))
     a = a.rename(columns={a.columns[2]: "total_assets"})
 
     # Merge on date
@@ -28,5 +28,5 @@ for country in countries:
 
 nexus = pd.concat(dfs, ignore_index=True)
 nexus = nexus[["country", "DATE", "TIME PERIOD", "holdings", "total_assets", "nexus"]]
-nexus.to_csv(os.path.join(ROOT, 'data', 'variables', 'nexus.csv'), index=False)
-print(f"Created nexus.csv with {len(nexus):,} rows")
+nexus.to_csv(os.path.join(ROOT, 'data', 'variables', 'bank_sovereign_nexus_monthly.csv'), index=False)
+print(f"Created bank_sovereign_nexus_monthly.csv with {len(nexus):,} rows")

@@ -150,5 +150,5 @@ for c in countries:
 output = pd.DataFrame(rolling)
 output = output[[c for c in ['AT', 'BE', 'FI', 'FR', 'DE', 'GR', 'IE', 'IT', 'NL', 'PT', 'ES'] if c in output.columns]]
 output.index = output.index.strftime('%Y-%m')
-output.to_csv(os.path.join(ROOT, 'data', 'variables', 'bid_ask_spreads.csv'))
-print("Done. Saved to bid_ask_spreads.csv")
+output.to_csv(os.path.join(ROOT, 'data', 'variables', 'bid_ask_spreads_monthly.csv'))
+print("Done. Saved to bid_ask_spreads_monthly.csv")

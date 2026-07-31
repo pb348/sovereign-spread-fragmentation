@@ -1,5 +1,5 @@
 """
-Merges manual.csv (OECD EO Maastricht debt) into weo_debt_gdp_vintages_long.csv.
+Merges oecd_eo_debt_forecasts_manual.csv (OECD EO Maastricht debt) into weo_debt_gdp_vintages_long.csv.
 Drops any existing rows whose vintage contains a year before 2010,
 then adds clean OECD rows for 2005-Jun through 2010-Dec.
 
@@ -12,8 +12,8 @@ from io import StringIO
 
 from pathlib import Path
 
-_FORECASTED = Path(__file__).resolve().parents[3] / 'data' / 'variables' / 'Forecasted'
-MANUAL_CSV = _FORECASTED / 'manual.csv'
+_FORECASTED = Path(__file__).resolve().parents[3] / 'data' / 'variables' / 'forecasted'
+MANUAL_CSV = _FORECASTED / 'oecd_eo_debt_forecasts_manual.csv'
 LONG_CSV   = _FORECASTED / 'weo_debt_gdp_vintages_long.csv'
 
 VINTAGE_MAP = {
@@ -25,7 +25,7 @@ VINTAGE_MAP = {
     2011: [('2010-Jun', 2010, 'Jun'), ('2010-Dec', 2010, 'Dec')],
 }
 
-# ── Clean manual.csv ──────────────────────────────────────────────────────────
+# ── Clean oecd_eo_debt_forecasts_manual.csv ──────────────────────────────────────────────────────────
 with open(MANUAL_CSV, 'r', encoding='utf-8') as f:
     lines = f.readlines()
 

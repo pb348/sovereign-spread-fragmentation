@@ -194,7 +194,7 @@ if __name__ == '__main__':
     frames = [parse_vintage(p, y, r) for (y, r), p in sorted(paths.items())]
     panel  = pd.concat([f for f in frames if not f.empty], ignore_index=True)
 
-    panel.to_csv(_ROOT / 'data' / 'variables' / 'Forecasted' / 'weo_debt_gdp_vintages_long.csv',
+    panel.to_csv(_ROOT / 'data' / 'variables' / 'forecasted' / 'weo_debt_gdp_vintages_long.csv',
              index=False)
 
     print(f"\nSaved weo_debt_gdp_vintages_long.csv")

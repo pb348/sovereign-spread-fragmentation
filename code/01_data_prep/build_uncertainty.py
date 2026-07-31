@@ -2,18 +2,17 @@
 build_uncertainty.py — assemble the monthly Economic Policy Uncertainty panel.
 
 Combines the country EPU indices used in the thesis into one wide monthly
-panel, data/variables/uncertainty.csv (columns: Date, DE, ES, FR, GR, IE, IT,
+panel, data/variables/policy_uncertainty_monthly.csv (columns: Date, DE, ES, FR, GR, IE, IT,
 BE, NL, PT — Austria and Finland have no published EPU index).
 
 Sources (all from policyuncertainty.com and the papers cited therein; the
 workbooks are committed in data/raw/):
-    All_Country_Data.xlsx                    -> DE, ES, FR, GR, IE, IT
-                                                (Baker, Bloom & Davis 2016)
-    EPU_Belgium_data.xlsx                    -> BE  ("EPU Belgium",
-                                                Algaba et al. 2020)
-    Netherlands_Policy_Uncertainty_Data.xlsx -> NL  ("EBO-NL Index",
-                                                Kroese, Kok & Parlevliet 2015)
-    Portugal_epuptindex_data.xlsx            -> PT  ("epu_pt", Morão 2024)
+    policy_uncertainty_all_countries_raw.xlsx -> DE, ES, FR, GR, IE, IT
+                                                 (Baker, Bloom & Davis 2016)
+    policy_uncertainty_belgium_raw.xlsx       -> BE ("EPU Belgium", Algaba et al. 2020)
+    policy_uncertainty_netherlands_raw.xlsx   -> NL ("EBO-NL Index",
+                                                 Kroese, Kok & Parlevliet 2015)
+    policy_uncertainty_portugal_raw.xlsx      -> PT ("epu_pt", Morão 2024)
 """
 
 import pandas as pd
@@ -21,7 +20,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / 'data' / 'raw'
-OUTPUT = ROOT / 'data' / 'variables' / 'uncertainty.csv'
+OUTPUT = ROOT / 'data' / 'variables' / 'policy_uncertainty_monthly.csv'
 
 # ── All-country file: Year/Month rows, one column per country ────────────────
 ALL_COUNTRY_COLS = {
@@ -29,7 +28,7 @@ ALL_COUNTRY_COLS = {
     'Greece': 'GR', 'Ireland': 'IE', 'Italy': 'IT',
 }
 
-ac = pd.read_excel(RAW / 'All_Country_Data.xlsx')
+ac = pd.read_excel(RAW / 'policy_uncertainty_all_countries_raw.xlsx')
 ac = ac.dropna(subset=['Year', 'Month'])          # trailing footnote rows
 ac['Date'] = (ac['Year'].astype(int).astype(str) + '-'
               + ac['Month'].astype(int).astype(str).str.zfill(2))
@@ -48,10 +47,10 @@ def monthly_series(path, date_col, value_col, iso2, date_format=None):
 
 
 # ── Country-specific files ───────────────────────────────────────────────────
-be = monthly_series(RAW / 'EPU_Belgium_data.xlsx', 'date', 'EPU Belgium', 'BE')
-nl = monthly_series(RAW / 'Netherlands_Policy_Uncertainty_Data.xlsx',
+be = monthly_series(RAW / 'policy_uncertainty_belgium_raw.xlsx', 'date', 'EPU Belgium', 'BE')
+nl = monthly_series(RAW / 'policy_uncertainty_netherlands_raw.xlsx',
                     'Unnamed: 0', 'EBO-NL Index**', 'NL')
-pt = monthly_series(RAW / 'Portugal_epuptindex_data.xlsx',
+pt = monthly_series(RAW / 'policy_uncertainty_portugal_raw.xlsx',
                     'Unnamed: 0', 'epu_pt', 'PT', date_format='%Ym%m')
 
 panel = panel.join([be, nl, pt], how='outer').sort_index()

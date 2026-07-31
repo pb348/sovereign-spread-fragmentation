@@ -18,10 +18,10 @@ vintage files that live in the SAME folder as this script:
 
 Variable extracted: GGXWDG_NGDP  (general government gross debt, % of GDP).
 
-Output: debt-gdp-manual.csv   columns:
+Output: debt_gdp_oct_vintages.csv   columns:
     iso3, country, vintage, forecast_year, debt_gdp
 one row per (country, October vintage, forecast-horizon year). The format
-mirrors forecasted_panel.csv so it plugs into the same machinery.
+mirrors forecast_vintage_panel.csv so it plugs into the same machinery.
 
 Notes
 -----
@@ -45,8 +45,8 @@ _ROOT       = os.path.abspath(os.path.join(SCRIPT_DIR, '..', '..', '..'))
 # Raw October-vintage WEO files are not shipped; re-download them into
 # data/raw/weo_vintages/ (or set DEBT_SRC to point elsewhere).
 SOURCE_DIR  = os.environ.get('DEBT_SRC') or os.path.join(_ROOT, 'data', 'raw', 'weo_vintages')
-OUTPUT      = os.path.join(_ROOT, 'data', 'variables', 'Forecasted', 'debt-gdp-manual.csv')
-MANUAL_SEED = os.path.join(_ROOT, 'data', 'variables', 'Forecasted',
+OUTPUT      = os.path.join(_ROOT, 'data', 'variables', 'forecasted', 'debt_gdp_oct_vintages.csv')
+MANUAL_SEED = os.path.join(_ROOT, 'data', 'variables', 'forecasted',
                            'debt_gdp_manual_seed.csv')  # optional hand-filled rows
 DEBT_CODES  = ['GGXWDG_NGDP', 'GGD_NGDP']         # new (>=Oct2010) then old (Oct2007-Apr2010)
 HORIZON     = 2                                    # keep vintage_year, +1, +2 (Oct-only Burriel)

@@ -6,16 +6,22 @@ OECD debt vintages use Jun/Dec, IMF uses Apr/Oct.
 We map Jun→Apr and Dec→Oct so all vintages align on the same semi-annual key.
 Where both sources provide debt for the same (iso3, vintage, forecast_year),
 we prefer the IMF value (it covers 2010 onwards with full country coverage).
+
+NOTE: the committed forecast_vintage_panel.csv additionally contains a small
+number of hand-patched debt/GDP values (e.g. the 2020-Apr vintage) whose raw
+vintage sources are not committed. Re-running this script rebuilds the panel
+from the two committed long CSVs only and will overwrite those patched values
+— diff against the committed version before committing a regenerated panel.
 """
 
 import pandas as pd
 import numpy as np
 from pathlib import Path
 
-_FORECASTED = Path(__file__).resolve().parents[2] / 'data' / 'variables' / 'Forecasted'
+_FORECASTED = Path(__file__).resolve().parents[2] / 'data' / 'variables' / 'forecasted'
 DEBT_FILE = _FORECASTED / 'weo_debt_gdp_vintages_long.csv'
 HIST_FILE = _FORECASTED / 'weo_historical_forecasts_long.csv'
-OUTPUT    = _FORECASTED / 'forecasted_panel.csv'   # read by macro_fundamentals.py
+OUTPUT    = _FORECASTED / 'forecast_vintage_panel.csv'   # read by macro_fundamentals.py
 
 # ── Load ──────────────────────────────────────────────────────────────────────
 debt = pd.read_csv(DEBT_FILE)
@@ -28,9 +34,13 @@ def normalise_vintage(v):
 debt['vintage'] = debt['vintage'].apply(normalise_vintage)
 
 # Where duplicates arise (e.g. both 2010-Apr OECD and 2010-Apr IMF),
-# keep the IMF value (GGXWDG_NGDP) over OECD (GGFLMQ)
-# Sort so IMF rows come last, then drop_duplicates keeping last
-debt = debt.sort_values('subject_code')  # GGFLMQ < GGXWDG_NGDP alphabetically
+# keep the IMF value (GGXWDG_NGDP) over OECD (GGFLMQ).
+# Rows with a missing debt value are dropped FIRST so that an empty IMF
+# row can never displace a real OECD observation (early IMF vintages lack
+# debt/GDP for several countries), then sort so IMF rows come last and
+# drop_duplicates keeping last. kind='stable' keeps ties deterministic.
+debt = debt.dropna(subset=['debt_gdp_forecast'])
+debt = debt.sort_values('subject_code', kind='stable')
 debt = debt.drop_duplicates(
     subset=['vintage', 'forecast_year', 'iso3'], keep='last'
 )

@@ -36,13 +36,13 @@ os.makedirs(OUT_DIR, exist_ok=True)
 
 COUNTRIES = ['AT', 'BE', 'FI', 'FR', 'DE', 'GR', 'IE', 'IT', 'NL', 'PT', 'ES']
 
-# ISO3 -> ISO2, for forecasted_panel.csv ('iso3' column)
+# ISO3 -> ISO2, for forecast_vintage_panel.csv ('iso3' column)
 ISO3_TO_ISO2 = {
     'AUT': 'AT', 'BEL': 'BE', 'FIN': 'FI', 'FRA': 'FR', 'DEU': 'DE',
     'GRC': 'GR', 'IRL': 'IE', 'ITA': 'IT', 'NLD': 'NL', 'PRT': 'PT', 'ESP': 'ES',
 }
 
-# Country full-name -> ISO2 (used for nexus.csv etc., kept from old script)
+# Country full-name -> ISO2 (used for bank_sovereign_nexus_monthly.csv etc., kept from old script)
 NAME_TO_CODE = {
     'Austria': 'AT', 'Belgium': 'BE', 'Finland': 'FI', 'France': 'FR',
     'Germany ("linked")': 'DE', 'Germany': 'DE', 'Greece': 'GR',
@@ -246,14 +246,14 @@ def load_wide_monthly(path, date_col_candidates=('Date', 'date'), value_name='va
 # ── Configuration: input file paths ─────────────────────────────────────────
 
 PATHS = {
-    'forecasted_panel': 'data/variables/Forecasted/forecasted_panel.csv',
-    'uncertainty':      'data/variables/uncertainty.csv',
-    'nexus':            'data/variables/nexus.csv',
-    'bid_ask':          'data/variables/bid_ask_spreads.csv',
+    'forecasted_panel': 'data/variables/forecasted/forecast_vintage_panel.csv',
+    'uncertainty':      'data/variables/policy_uncertainty_monthly.csv',
+    'nexus':            'data/variables/bank_sovereign_nexus_monthly.csv',
+    'bid_ask':          'data/variables/bid_ask_spreads_monthly.csv',
     # The WEO workbook is not shipped (10 MB; re-download from the IMF WEO
     # forecast archive); the script warns and leaves the three WEO-based
     # variables empty when it is absent.
-    'weo_historical':   'data/variables/Forecasted/weo_historical_forecasts.xlsx',
+    'weo_historical':   'data/variables/forecasted/weo_historical_forecasts.xlsx',
 }
 
 
@@ -302,6 +302,16 @@ def finalize(df):
 # ── 2. FORECAST data — Burriel et al. (2024) fixed-horizon interpolation ──
 print("\nLoading WEO historical forecasts ...")
 if not os.path.exists(PATHS['weo_historical']):
+    # Abort rather than overwrite the committed panel with a degraded one:
+    # without the WEO workbook, gdp_growth/inflation/current_account would be
+    # written out empty. Set ALLOW_DEGRADED=1 to force a partial run anyway.
+    if os.environ.get('ALLOW_DEGRADED') != '1':
+        raise SystemExit(
+            f"ERROR: {PATHS['weo_historical']} not found (not committed for "
+            f"size; see README 'Running the pipeline'). Aborting so the "
+            f"committed macro_fundamentals_forecasted_interpolated.csv is "
+            f"not overwritten with empty macro columns. "
+            f"Set ALLOW_DEGRADED=1 to run anyway.")
     print(f"  [WARNING] {PATHS['weo_historical']} not found -> forecasted "
           f"gdp_growth/inflation/current_account will be empty.")
     fc_gdp = pd.DataFrame(columns=['country', 'month_idx', 'gdp_growth'])
@@ -318,7 +328,7 @@ else:
 
 # ── debt-to-GDP: no consistent two-year-ahead vintage forecast exists, so
 # take the Dovern rolling weighted average of the one-year-ahead April and
-# October vintage forecasts (period_length = 6) from forecasted_panel.csv.
+# October vintage forecasts (period_length = 6) from forecast_vintage_panel.csv.
 if os.path.exists(PATHS['forecasted_panel']):
     _fc = pd.read_csv(PATHS['forecasted_panel'])
     _fc.columns = _fc.columns.str.strip()
@@ -328,7 +338,7 @@ if os.path.exists(PATHS['forecasted_panel']):
     fc_debt = interpolate_panel_column(
         _fc[['country', 'month_idx', 'debt_gdp']].dropna(subset=['debt_gdp']),
         'country', 'month_idx', 'debt_gdp', 6, 'debt_gdp')
-    print("  debt_gdp from forecasted_panel.csv "
+    print("  debt_gdp from forecast_vintage_panel.csv "
           "(next-year forecast, vintage-date anchored, period_length=6).")
 else:
     print(f"  [WARNING] {PATHS['forecasted_panel']} not found -> debt_gdp empty.")

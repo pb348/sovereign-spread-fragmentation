@@ -7,7 +7,7 @@ variable, plus the same moments for sovereign spreads and the (static) VSTOXX
 series.
 
 Inputs:
-    data/variables/sovereign_spreads.csv
+    data/variables/sovereign_spreads_monthly.csv
     data/processed/macro_fundamentals_forecasted_interpolated.csv
     data/variables/vstoxx_monthly.csv   (static — not regenerated)
 
@@ -72,7 +72,7 @@ MOMENT_FUNCS = {'stdev': xstdev, 'skew': xskew, 'kurt': xkurt}
 # ── 1. Load shared series: sovereign spreads + VSTOXX ────────────────────────
 print("Loading shared series (spreads, vstoxx) ...")
 
-spreads = pd.read_csv('data/variables/sovereign_spreads.csv').rename(columns={'Unnamed: 0': 'date'})
+spreads = pd.read_csv('data/variables/sovereign_spreads_monthly.csv').rename(columns={'Unnamed: 0': 'date'})
 spreads['date'] = pd.to_datetime(spreads['date'], format='%Y-%m')
 spreads = spreads.set_index('date')
 # Restrict to EA11 — excludes Luxembourg explicitly

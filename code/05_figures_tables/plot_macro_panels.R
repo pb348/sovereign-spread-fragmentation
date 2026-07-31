@@ -9,7 +9,7 @@
 # [latest] Macro fundamentals timeseries (gdp_growth, inflation, debt_gdp,
 #          current_account) now sourced from processed/macro_fundamentals_interpolated.csv
 #          (monthly, YYYY-MM dates, country = ISO2) instead of
-#          variables/Forecasted/forecasted_panel.csv (annual, h=1 WEO forecasts).
+#          variables/forecasted/forecast_vintage_panel.csv (annual, h=1 WEO forecasts).
 #          Removed iso3_to_iso2 lookup and FCAST_DIR path — no longer needed.
 # [prev]   Split timeseries into two PNGs: macro fundamentals (2×2) and HF (1×3).
 # [prev]   Replaced direct right-side labels with shared collected legend.
@@ -115,7 +115,7 @@ message("✓ saved final_macro_stdev_forecasted.png")
 # 2.  TIME-SERIES PLOT — per-country, multi-source
 # ═══════════════════════════════════════════════════════════════════════════════
 
-# ── Name → ISO2 map (nexus.csv uses full country names) ──────────────────────
+# ── Name → ISO2 map (bank_sovereign_nexus_monthly.csv uses full country names) ──────────────────────
 name_to_iso2 <- c(
   "Austria" = "AT", "Belgium" = "BE", "Finland" = "FI", "France" = "FR",
   "Germany" = "DE", "Greece"  = "GR", "Ireland" = "IE", "Italy"   = "IT",
@@ -140,7 +140,7 @@ macro_fund <- read_csv(
 # ── 2b. High-frequency files ──────────────────────────────────────────────────
 
 # nexus: long, DATE = "YYYY-MM-DD", country = full name, value = nexus
-nexus <- read_csv(file.path(VAR_DIR, "nexus.csv"), show_col_types = FALSE) %>%
+nexus <- read_csv(file.path(VAR_DIR, "bank_sovereign_nexus_monthly.csv"), show_col_types = FALSE) %>%
   select(country, date = DATE, value = nexus) %>%
   mutate(
     date     = as.Date(date),
@@ -150,7 +150,7 @@ nexus <- read_csv(file.path(VAR_DIR, "nexus.csv"), show_col_types = FALSE) %>%
   drop_na(country)
 
 # bid_ask: wide, Date = "YYYY-MM", cols = ISO2 codes
-bid_ask <- read_csv(file.path(VAR_DIR, "bid_ask_spreads.csv"), show_col_types = FALSE) %>%
+bid_ask <- read_csv(file.path(VAR_DIR, "bid_ask_spreads_monthly.csv"), show_col_types = FALSE) %>%
   pivot_longer(-Date, names_to = "country", values_to = "value") %>%
   mutate(
     date     = as.Date(paste0(Date, "-01")),
@@ -159,7 +159,7 @@ bid_ask <- read_csv(file.path(VAR_DIR, "bid_ask_spreads.csv"), show_col_types = 
   select(date, country, value, variable)
 
 # uncertainty: wide, Date = "YYYY-MM", cols = ISO2 codes
-uncertainty <- read_csv(file.path(VAR_DIR, "uncertainty.csv"), show_col_types = FALSE) %>%
+uncertainty <- read_csv(file.path(VAR_DIR, "policy_uncertainty_monthly.csv"), show_col_types = FALSE) %>%
   pivot_longer(-Date, names_to = "country", values_to = "value") %>%
   mutate(
     date     = as.Date(paste0(Date, "-01")),

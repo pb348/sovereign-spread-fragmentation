@@ -22,7 +22,7 @@ _ROOT  = Path(__file__).resolve().parents[3]
 # Workbook not shipped (10 MB); download WEOhistorical.xlsx from the IMF
 # WEO forecast archive and place it at data/raw/WEOhistorical-2.xlsx.
 INPUT  = _ROOT / 'data' / 'raw' / 'WEOhistorical-2.xlsx'
-OUTPUT = _ROOT / 'data' / 'variables' / 'Forecasted' / 'weo_historical_forecasts_long.csv'
+OUTPUT = _ROOT / 'data' / 'variables' / 'forecasted' / 'weo_historical_forecasts_long.csv'
 
 EMU_ISO = {
     'AUT': 'Austria',     'BEL': 'Belgium',     'FIN': 'Finland',

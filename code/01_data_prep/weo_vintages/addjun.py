@@ -8,7 +8,7 @@ import pandas as pd
 from pathlib import Path
 
 LONG_CSV = (Path(__file__).resolve().parents[3]
-            / 'data' / 'variables' / 'Forecasted' / 'weo_debt_gdp_vintages_long.csv')
+            / 'data' / 'variables' / 'forecasted' / 'weo_debt_gdp_vintages_long.csv')
 
 # EO77 (Jun 2005) values for forecast year 2006 — from Annex Table 60
 jun2005 = [
