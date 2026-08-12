@@ -1,11 +1,11 @@
 # ECB Asset Purchases and Sovereign Bond Spread Fragmentation
 
-Data pipeline and estimation code for a bachelor's thesis on the effect of ECB
-asset purchase programmes (SMP, PSPP, PEPP) on the fragmentation of euro-area
+Data pipeline and code for regression used in a bachelor's thesis on the effect of ECB
+asset purchase programmes on the fragmentation of euro-area
 sovereign bond spreads, following the moments-based approach of Kakes and van
 den End (2024).
 
-## Abstract
+## Abstract (excerpt from thesis)
 
 > This paper examines whether sovereign bond market fragmentation in the euro
 > area can be decomposed into fundamental and non-fundamental components, and
@@ -37,23 +37,25 @@ precondition for the ECB's price-stability mandate, but sovereign bond markets
 can fragment: spreads may diverge for reasons unrelated to countries'
 macroeconomic fundamentals, as in the 2010–2012 sovereign debt crisis. The
 ECB's Transmission Protection Instrument (TPI, announced 2022) is explicitly
-designed to counter such "unwarranted, disorderly market dynamics" — which
+designed to counter such "unwarranted, disorderly market dynamics". This
 raises an empirical question: can non-fundamental spread dispersion be measured,
-and did the TPI's predecessor programmes (SMP, PSPP, PEPP) actually compress
+and did prior asset purchase programmes by the ECB actually compress
 it? This project answers both with a two-stage OLS framework. Stage 1 regresses
 the monthly cross-sectional standard deviation of sovereign spreads on the
 cross-sectional standard deviations of macro-fundamental forecasts (GDP growth,
 inflation, debt/GDP, current account, policy uncertainty, bank-sovereign nexus,
 bid-ask spreads), with market sentiment (VSTOXX) interactions; Stage 2
-evaluates the fitted model under normal market conditions, so that the gap
+evaluates the fitted model under "normal" market conditions (meaning average sentiment), so that the gap
 between observed and predicted dispersion identifies episodes of
 non-fundamental fragmentation.
 
-The pipeline implements the full workflow: it constructs monthly fixed-horizon
-forecast series from public IMF/OECD/AMECO vintages via the interpolation
-method of Burriel et al. (2024) — replacing the proprietary Consensus
-Economics data used by the reference study — computes cross-sectional
-dispersion moments, estimates rolling (60-month) and fixed-parameter variants
+The pipeline implements the full workflow: First, it extracts all the data used in the analysis from several different sources with varying formats (Excel files, long and wide format csv's, written press releases, etc.) and then turns it into a uniform format. A couple sanity-tests and outlier checks are performed to ensure the correctness of the data.
+Next is the construction of monthly fixed-horizon forecast series from public IMF/OECD/AMECO vintages via an interpolation
+method used for a similar purpose in Burriel et al. (2024). This replaces the proprietary Consensus
+Economics data used by the reference study. Interestingly, the constructed interpolated data is very similar to the proprietary data and, used in the later analysis, yields the same results. From there, the script computes cross-sectional
+dispersion moments which are needed for the regression.
+
+Finally, it estimates rolling (60-month) and fixed-parameter variants
 of the model, tests announcement effects and purchase-volume effects of the
 ECB programmes, and runs the statistical annex (endogeneity, unit roots,
 cointegration, residual diagnostics).
