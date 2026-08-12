@@ -49,15 +49,13 @@ evaluates the fitted model under "normal" market conditions (meaning average sen
 between observed and predicted dispersion identifies episodes of
 non-fundamental fragmentation.
 
-The pipeline implements the full workflow: First, it extracts all the data used in the analysis from several different sources with varying formats (Excel files, long and wide format csv's, written press releases, etc.) and then turns it into a uniform format. A couple sanity-tests and outlier checks are performed to ensure the correctness of the data.
+The python-pipeline implements the  data-workflow: First, it extracts all the data used in the analysis from several different sources with varying formats (Excel files, long and wide format csv's, written press releases, etc.) and then turns it into a uniform format. A couple sanity-tests and outlier checks are performed to ensure the correctness of the data.
 Next is the construction of monthly fixed-horizon forecast series from public IMF/OECD/AMECO vintages via an interpolation
 method used for a similar purpose in Burriel et al. (2024). This replaces the proprietary Consensus
 Economics data used by the reference study. Interestingly, the constructed interpolated data is very similar to the proprietary data and, used in the later analysis, yields the same results. From there, the script computes cross-sectional
 dispersion moments which are needed for the regression.
 
-Finally, it estimates rolling (60-month) and fixed-parameter variants
-of the model, tests announcement effects and purchase-volume effects of the
-ECB programmes, and runs the statistical annex (endogeneity, unit roots,
+Using R, the model is then estimated in rolling-window and fixed-parameter variants. Further, the script tests announcement effects and purchase-volume effects of the ECB programmes, and produces tables for the main results section and statistical annex (coeendogeneity, unit roots,
 cointegration, residual diagnostics).
 
 ## Key figures
