@@ -81,7 +81,8 @@ gap between the dispersion predicted at observed purchase volumes and at zero
 purchases quantifies the compressive effect of the programmes (δ = −0.007 per
 EUR bn, significant at 1%).
 
-![Predicted and observed standard deviation of spreads including ECB purchases](output/figures/predicted_vs_actual_fixed_model2.png)
+![Predicted and observed standard deviation of spreads including ECB purchases](output/figures/predicted_vs_actual_with_fragmentation_fixed.png)
+
 
 ## Repository structure
 
