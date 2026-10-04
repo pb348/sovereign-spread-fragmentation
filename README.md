@@ -49,11 +49,38 @@ evaluates the fitted model under "normal" market conditions (meaning average sen
 between observed and predicted dispersion identifies episodes of
 non-fundamental fragmentation.
 
+For each month $t$, Stage 1 is estimated by OLS over a 60-month rolling window ($\tau = t-59, \dots, t$):
+
+```math
+MS_\tau = \alpha_t + \sum_{j} \beta_{j,t}\, MF_{j,\tau} + \gamma_t\, S_\tau
++ \sum_{j} \lambda_{j,t}\,\big(MF_{j,\tau} - \overline{MF}_{j,t}\big)\big(S_\tau - \bar{S}\big) + \varepsilon_\tau
+```
+
+where $MS$ is the cross-sectional standard deviation of spreads, $MF_j$ the cross-sectional standard deviation of fundamental $j$, $S$ the VSTOXX, and $\bar{S}$ its average over the reference period. Stage 2 sets $S_t = \bar{S}$, so the sentiment and interaction terms drop out:
+
+```math
+\widetilde{MS}_t = \hat{\alpha}_t + \sum_{j} \hat{\beta}_{j,t}\, MF_{j,t}
+```
+
+Non-fundamental fragmentation is observed dispersion above the upper bound of the Stage 2 prediction:
+
+```math
+F_t = \max\Big\{0,\; MS_t - \big[\widetilde{MS}_t + 2\,\mathrm{se}(\widetilde{MS}_t)\big]\Big\}
+```
+
 The python-pipeline implements the  data-workflow: First, it extracts all the data used in the analysis from several different sources with varying formats (Excel files, long and wide format csv's, written press releases, etc.) and then turns it into a uniform format. A couple sanity-tests and outlier checks are performed to ensure the correctness of the data.
 Next is the construction of monthly fixed-horizon forecast series from public IMF/OECD/AMECO vintages via an interpolation
 method used for a similar purpose in Burriel et al. (2024). This replaces the proprietary Consensus
 Economics data used by the reference study. Interestingly, the constructed interpolated data is very similar to the proprietary data and, used in the later analysis, yields the same results. From there, the script computes cross-sectional
 dispersion moments which are needed for the regression.
+
+**Constructed macro-fundamental series** (monthly, 11 countries, 2005–2025):
+
+![Monthly macro-fundamental forecast series by country](output/figures/final_macro_fundamentals.png)
+
+**Cross-sectional dispersion moments** used as regressors in Stage 1:
+
+![Cross-sectional standard deviations of spreads and macro-fundamentals](output/figures/final_stdev_gallery.png)
 
 Using R, the model is then estimated in rolling-window and fixed-parameter variants. Further, the script tests announcement effects and purchase-volume effects of the ECB programmes, and produces tables for the main results section and statistical annex (coeendogeneity, unit roots,
 cointegration, residual diagnostics).
